@@ -1,8 +1,4 @@
-# archillect-wallpaper
-Fetch the latest image from archillect.com and set it as wallpaper
+# archillect-wallpaper-menubar
 
-## Usage
-```
-npm install
-node index
-```
+## Download from releases tab
+
