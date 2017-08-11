@@ -16,13 +16,9 @@
   "license": "MIT",
   "build": {
     "appId": "me.mkern.archillect-wallpaper-menubar",
-    "files": [
-      "**/*"
-    ],
     "mac": {
       "category": "public.app-category.utility"
-    },
-    "asar": false
+    }
   },
   "scripts": {
     "start": "electron .",
