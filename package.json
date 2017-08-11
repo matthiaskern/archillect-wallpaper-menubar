@@ -1,0 +1,38 @@
+{
+  "name": "archillect-wallpaper-menubar",
+  "author": {
+    "name": "Matthias Kern",
+    "email": "matthias_kern@posteo.net",
+    "url": "https://mkern.me"
+  },
+  "version": "0.0.1",
+  "description": "Menubar app for archillect-wallpaper",
+  "repository": "https://github.com/matthiaskern/archillect-wallpaper-menubar",
+  "keywords": [
+    "wallpaper",
+    "archillect",
+    "menubar"
+  ],
+  "license": "MIT",
+  "build": {
+    "appId": "me.mkern.archillect-wallpaper-menubar",
+    "files": [
+      "**/*"
+    ],
+    "mac": {
+      "category": "public.app-category.utility"
+    },
+    "asar": false
+  },
+  "scripts": {
+    "start": "electron .",
+    "release": "build"
+  },
+  "dependencies": {
+    "archillect-wallpaper": "*"
+  },
+  "devDependencies": {
+    "electron": "^1.6.2",
+    "electron-builder": "^16.7.1"
+  }
+}
