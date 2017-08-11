@@ -29,7 +29,8 @@
     "release": "build"
   },
   "dependencies": {
-    "archillect-wallpaper": "*"
+    "archillect-wallpaper": "*",
+    "electron-unhandled": "^0.2.0"
   },
   "devDependencies": {
     "electron": "^1.6.2",

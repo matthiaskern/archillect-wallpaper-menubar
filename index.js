@@ -3,7 +3,6 @@ const {app, shell, Menu, Tray} = require('electron');
 
 const iconPath = path.join(__dirname, 'assets/iconTemplate.png');
 
-const changeWallpaper = require('archillect-wallpaper')
 
 const contextMenu = Menu.buildFromTemplate([
   {
@@ -27,6 +26,7 @@ const contextMenu = Menu.buildFromTemplate([
 app.on('ready', () => {
   app.dock.hide();
 
+  const changeWallpaper = require('archillect-wallpaper')
   const tray = new Tray(iconPath);
 
   tray.setToolTip('Archillect');
